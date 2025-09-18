@@ -14,7 +14,7 @@ Maven (comes built-in with Spring Tool Suite)
 Postman (for testing REST APIs)
 
 Git (if you are cloning from GitHub)
-
+-------------------------------------------------------------------------
 ⚡ Steps to Run
 
 Clone / Download Project
@@ -26,7 +26,7 @@ cd placement-management-system
 
 
 Or directly import the .zip project into STS/Eclipse.
-
+-------------------------------------------------------------------------
 Set Up Database in pgAdmin
 
 Open pgAdmin → create a new database:
@@ -44,7 +44,7 @@ spring.datasource.username=postgres
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
-
+---------------------------------------------------------------------------
 
 Run the Application
 
@@ -54,7 +54,7 @@ Or in terminal:
 
 mvn spring-boot:run
 
-
+-----------------------------------------------------
 Access Application
 
 Server will start at → http://localhost:8080
