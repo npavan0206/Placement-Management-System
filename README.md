@@ -44,10 +44,10 @@ spring.datasource.username=postgres
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
----------------------------------------------------------------------------
+
 
 Run the Application
-
+---------------------------------------------------------------------------
 In STS/Eclipse → Right click project → Run As → Spring Boot App
 
 Or in terminal:
